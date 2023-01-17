@@ -10,6 +10,7 @@ import {
 } from "@aws-amplify/ui-react";
 
 function App({ signOut }) {
+  console.log(process.env.API_URL);
   return (
     <View className="App">
       <Card>
